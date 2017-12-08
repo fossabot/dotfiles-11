@@ -4,7 +4,7 @@ before_install:
   - curl -L https://bit.ly/janus-bootstrap | bash
 
 script:
-  - ./install-dotfiles.sh
+  - sh ./install-dotfiles.sh
 
 os:
   - linux
