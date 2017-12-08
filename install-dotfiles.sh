@@ -1,9 +1,9 @@
 #!/bin/bash
 
-ln -s -f $HOME/.vimrc .vimrc
-ln -s -f $HOME/.vimrc.after .vimrc.after
-ln -s -f $HOME/.vimrc.before .vimrc.before
-ln -s -f $HOME/.zshrc .zshrc
+ln -s -f .vimrc $HOME/.vimrc
+ln -s -f .vimrc.after $HOME/.vimrc.after
+ln -s -f .vimrc.before $HOME/.vimrc.before
+ln -s -f .zshrc $HOME/.zshrc
 
 vim +PluginInstall +qall
 vim +PluginUpdate +qall
