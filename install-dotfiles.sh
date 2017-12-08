@@ -1,8 +1,8 @@
 #!/bin/bash
 
-ln -s $HOME/.vimrc .vimrc
-ln -s $HOME/.vimrc.after .vimrc.after
-ln -s $HOME/.vimrc.before .vimrc.before
-ln -s $HOME/.zshrc .zshrc
+ln -s -f $HOME/.vimrc .vimrc
+ln -s -f $HOME/.vimrc.after .vimrc.after
+ln -s -f $HOME/.vimrc.before .vimrc.before
+ln -s -f $HOME/.zshrc .zshrc
 
 vim
