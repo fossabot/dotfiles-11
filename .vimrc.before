@@ -6,4 +6,5 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'jordwalke/flatlandia'
+Plugin 'posva/vim-vue'
 call vundle#end()
