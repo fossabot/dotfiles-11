@@ -20,6 +20,7 @@ set wildignore+=**/node_modules/**,**/dist/**,**/core.client/dist/**,**/core.cli
 set listchars=eol:$
 set switchbuf+=usetab,newtab
 set noignorecase
+set mouse=a
 
 map <F2> :NERDTreeToggle<CR>
 let g:vimrubocop_keymap = 0
