@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo apt install zsh
-sudo apt install silversearcher-ag
+sudo apt install zsh -y
+sudo apt install silversearcher-ag -y
