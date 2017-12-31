@@ -1,11 +1,12 @@
 #!/bin/bash
 
+cd before_install
 if [[ $OSTYPE =~ "darwin" ]]
 then
-  sh ./osx.sh;
+  ./osx.sh;
 elif [[ "$OSTYPE" == "linux-gnu" ]]
 then
-  sh ./linux.sh;
+  ./linux.sh;
 else
   echo "OS not supported"
   exit 1
