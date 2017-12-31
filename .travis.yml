@@ -1,10 +1,10 @@
 language: generic
 
 before_install:
-  - sh ./before_install/generic.sh
+  - bash ./before_install/generic.sh
 
 script:
-  - sh ./install-dotfiles.sh
+  - bash ./install-dotfiles.sh
 
 os:
   - linux
