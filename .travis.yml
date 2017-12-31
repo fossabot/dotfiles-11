@@ -6,6 +6,12 @@ before_install:
 script:
   - bash ./install-dotfiles.sh
 
+addons:
+  apt:
+    packages:
+    - zsh
+    - silversearcher-ag
+
 os:
   - linux
   - osx
