@@ -4,7 +4,7 @@ cd before_install
 if [[ $OSTYPE =~ "darwin" ]]
 then
   ./osx.sh;
-elif [[ "$OSTYPE" == "linux-gnu" ]]
+elif [[ $OSTYPE == "linux-gnu" ]]
 then
   ./linux.sh;
 else
