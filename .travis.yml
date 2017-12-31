@@ -1,8 +1,7 @@
 language: generic
 
 before_install:
-  - curl -L https://bit.ly/janus-bootstrap | bash
-  - git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+  - sh ./before_install/generic.sh
 
 script:
   - sh ./install-dotfiles.sh
