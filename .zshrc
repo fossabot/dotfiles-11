@@ -14,7 +14,6 @@ export LOLCOMMITS_ANIMATE=1
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 alias grep="ag --ignore-dir='dist' --color"
-alias ls="exa"
 alias ctags="`brew --prefix`/bin/ctags"
 alias n="nvim"
 
