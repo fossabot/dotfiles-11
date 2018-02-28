@@ -27,7 +27,7 @@ let g:vimrubocop_keymap = 0
 nnoremap <Leader>r :RuboCop<CR>
 nnoremap <Leader>. :CtrlPTag<CR>
 nnoremap <Leader>ct :!{/usr/local/bin/ctags -R --exclude=.git --exclude=node_modules --exclude=dist}
-nnoremap <Leader>prettifyjson:%!{python -m json.tool}
+nnoremap <Leader>pj :%!{python -m json.tool}
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 
