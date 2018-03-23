@@ -27,3 +27,6 @@ export LOLCOMMITS_ANIMATE=1
 alias gitclean="git branch | grep -v 'development' | grep -v 'master' | xargs -L1 git branch -D"
 alias dbbeta="docker-compose run --rm database-cli $(cat ~/database_url)"
 alias gpa="git-pull-all"
+
+#go
+export GOPATH=$HOME/go
