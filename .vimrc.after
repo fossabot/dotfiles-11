@@ -15,7 +15,7 @@ set listchars=eol:$
 set switchbuf+=usetab,newtab
 set noignorecase
 set mouse=a
-colo heroku
+colo heroku-terminal
 
 map <F2> :NERDTreeToggle<CR>
 let g:vimrubocop_keymap = 0
