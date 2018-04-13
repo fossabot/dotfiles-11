@@ -7,4 +7,6 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'jordwalke/flatlandia'
 Plugin 'posva/vim-vue'
+Plugin 'trusktr/seti.vim'
+Plugin 'kristijanhusak/vim-carbon-now-sh'
 call vundle#end()
