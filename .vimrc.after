@@ -29,6 +29,7 @@ let g:syntastic_check_on_wq = 0
 
 let g:NERDSpaceDelims = 1
 let NERDTreeRespectWildIgnore=1
+let NERDTreeShowHidden=1
 map <F2> :NERDTreeToggle<CR>
 
 noremap <F5> :CarbonNowSh<CR>
@@ -42,5 +43,3 @@ nnoremap <C-Right> :tabnext<CR>
 
 nnoremap <S-Left> :tabm -1<CR>
 nnoremap <S-Right> :tabm +1<CR>
-
-nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
