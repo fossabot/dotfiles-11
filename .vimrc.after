@@ -15,6 +15,7 @@ set listchars=eol:$
 set switchbuf+=usetab,newtab
 set noignorecase
 set mouse=a
+set pastetoggle=<F3>
 colo heroku-terminal
 
 set statusline+=%#warningmsg#
@@ -26,7 +27,11 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+let g:NERDSpaceDelims = 1
+let NERDTreeRespectWildIgnore=1
 map <F2> :NERDTreeToggle<CR>
+
+noremap <F5> :CarbonNowSh<CR>
 let g:vimrubocop_keymap = 0
 nnoremap <Leader>r :RuboCop<CR>
 nnoremap <Leader>. :CtrlPTag<CR>
