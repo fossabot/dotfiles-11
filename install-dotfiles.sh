@@ -8,6 +8,7 @@ curl -L https://iterm2.com/shell_integration/zsh \
 cp .zshrc $HOME/.zshrc
 
 git clone https://github.com/stulzer/heroku-colorscheme.git $HOME/.vim/janus/vim/colors/heroku-colorscheme
+git clone https://github.com/tpope/vim-surround.git $HOME/.vim/janus/vim/tools/vim-surround
 
 vim +PluginInstall +qall
 vim +PluginUpdate +qall
