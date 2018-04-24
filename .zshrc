@@ -1,5 +1,8 @@
+#go
+export GOPATH=$HOME/go
+
 #environment variables
-export PATH="${HOME}/Library/Python/3.6/bin:$PATH"
+export PATH="${GOPATH//://bin:}/bin:${HOME}/Library/Python/3.6/bin:$PATH"
 
 #zsh
 export ZSH="${HOME}/.oh-my-zsh"
@@ -27,6 +30,3 @@ export LOLCOMMITS_ANIMATE=1
 alias gitclean="git branch | grep -v 'development' | grep -v 'master' | xargs -L1 git branch -D"
 alias dbbeta="docker-compose run --rm database-cli $(cat ~/database_url)"
 alias gpa="git-pull-all"
-
-#go
-export GOPATH=$HOME/go
