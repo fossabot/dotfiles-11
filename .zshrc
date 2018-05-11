@@ -7,7 +7,7 @@ export PATH="${GOPATH//://bin:}/bin:${HOME}/Library/Python/3.6/bin:$PATH"
 # zsh
 export ZSH="${HOME}/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
-plugins=(git bundler osx rake ruby docker docker-compose)
+plugins=(git bundler osx rake ruby docker docker-compose k)
 source $ZSH/oh-my-zsh.sh
 
 # rbenv
