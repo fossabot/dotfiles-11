@@ -1,6 +1,5 @@
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
@@ -8,4 +7,7 @@ Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'posva/vim-vue'
 Plugin 'trusktr/seti.vim'
 Plugin 'kristijanhusak/vim-carbon-now-sh'
+Plugin 'b4b4r07/vim-sqlfmt'
+Plugin 'mtscout6/syntastic-local-eslint.vim'
+Plugin 'leafgarland/typescript-vim'
 call vundle#end()
