@@ -1,3 +1,5 @@
+call janus#disable_plugin('syntastic')
+
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
@@ -8,6 +10,6 @@ Plugin 'posva/vim-vue'
 Plugin 'trusktr/seti.vim'
 Plugin 'kristijanhusak/vim-carbon-now-sh'
 Plugin 'b4b4r07/vim-sqlfmt'
-Plugin 'mtscout6/syntastic-local-eslint.vim'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'w0rp/ale'
 call vundle#end()
