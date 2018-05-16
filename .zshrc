@@ -18,7 +18,7 @@ export RBENV_VERSION=2.4.1
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # grep
-alias grep="ag --ignore-dir='vendor' --ignore-dir='_static' --ignore-dir='node_modules' --ignore-dir='dist' --color"
+alias grep="ag --ignore-dir='vendor' --ignore-dir='_static' --ignore-dir='node_modules' --ignore-dir='dist' --ignore='*\.js\.map' --color"
 
 # editor
 export EDITOR='nvim'
