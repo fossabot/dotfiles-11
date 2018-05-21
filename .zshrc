@@ -36,3 +36,4 @@ alias dockerclean="docker container ls -a -q --filter=\"name=_run_\" | xargs doc
 
 # vim-slime
 alias ss="screen -S slime"
+alias ks="killall SCREEN"
