@@ -33,3 +33,6 @@ alias gpa="git-pull-all"
 
 # docker
 alias dockerclean="docker container ls -a -q --filter=\"name=_run_\" | xargs docker rm"
+
+# vim-slime
+alias ss="screen -S slime"
