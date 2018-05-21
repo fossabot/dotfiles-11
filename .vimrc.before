@@ -12,5 +12,5 @@ Plugin 'kristijanhusak/vim-carbon-now-sh'
 Plugin 'b4b4r07/vim-sqlfmt'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'w0rp/ale'
-Plugin 'Yggdroot/indentLine'
+Plugin 'jpalardy/vim-slime'
 call vundle#end()
