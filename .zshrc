@@ -14,10 +14,7 @@ source $ZSH/oh-my-zsh.sh
 eval "$(rbenv init -)"
 export RBENV_VERSION=2.4.1
 
-# iterm2 integration
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-# grep
+# ag
 alias grep="ag --ignore-dir='vendor' --ignore-dir='_static' --ignore-dir='node_modules' --ignore-dir='dist' --ignore='*\.js\.map' --color"
 
 # editor
@@ -37,3 +34,14 @@ alias dockerclean="docker container ls -a -q --filter=\"name=_run_\" | xargs doc
 # vim-slime
 alias ss="screen -S slime"
 alias ks="killall SCREEN"
+
+# work related
+source ~/.workrc
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# iterm2 integration
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
