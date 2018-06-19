@@ -13,4 +13,6 @@ Plugin 'b4b4r07/vim-sqlfmt'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'w0rp/ale'
 Plugin 'jpalardy/vim-slime'
+Plugin 'mattn/emmet-vim'
+Plugin 'tpope/vim-rhubarb'
 call vundle#end()
