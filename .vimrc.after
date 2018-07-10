@@ -24,6 +24,7 @@ let NERDTreeShowHidden=1
 map <F2> :NERDTreeToggle<CR>
 
 let g:ale_fixers = {
+\   'javascript': ['prettier'],
 \   'typescript': ['prettier'],
 \   'ruby': ['rubocop']
 \}
